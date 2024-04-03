@@ -67,3 +67,144 @@ p,
   opacity: 0px;
   object-fit: cover;
 }
+
+.contenedor {
+  position: relative;
+}
+
+#imagenParteSuperior {
+  max-width: 2000px;
+  width:1659px;
+  height: 368px;
+  object-fit: cover;
+  padding-left: 100px;
+}
+
+.texto {
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 24px;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#recipes{
+  color: #7E4333;
+  padding: 20px 0px 20px 100px;
+}
+
+#grid-container {
+  display: grid;
+  grid-template-rows: 400px 400px 500px;
+  grid-template-columns: 550px 550px 500px;
+  grid-template-areas: 
+  "main main main"
+  "main main main";
+  padding-left: 100px;
+  gap: 130px 30px;
+}
+
+#receta1{
+  background-color: #ffffff;
+  padding: 20px;
+  color: black;
+}
+
+#receta2 {
+  background-color: #ffffff;
+  padding: 20px;
+  color: black;
+}
+
+#receta3{
+  background-color: #ffffff;
+  padding: 20px;
+  color: black;
+}
+
+#receta4{
+  background-color: #ffffff;
+  padding: 20px;
+  color: black;
+}
+
+#receta5{
+  background-color: #ffffff;
+  padding: 20px;
+  color: black;
+}
+
+#receta6{
+  background-color: #ffffff;
+  padding: 20px;
+  color: black;
+}
+
+#imgReceta1 {
+  width: 510px;
+  height: 250px;
+  object-fit: cover;
+  justify-content: center center;
+  border-radius: 6px;
+}
+
+#imgReceta2 {
+  width: 510px;
+  height: 250px;
+  object-fit: cover;
+  justify-content: center center;
+  border-radius: 6px;
+}
+
+#imgReceta3 {
+  width: 460px;
+  height: 250px;
+  object-fit: cover;
+  justify-content: center center;
+  border-radius: 6px;
+}
+
+#imgReceta4 {
+  width: 510px;
+  height: 250px;
+  object-fit: cover;
+  justify-content: center center;
+  border-radius: 6px;
+}
+
+#imgReceta5 {
+  width: 510px;
+  height: 250px;
+  object-fit: cover;
+  justify-content: center center;
+  border-radius: 6px;
+}
+
+#imgReceta6 {
+  width: 460px;
+  height: 250px;
+  object-fit: cover;
+  justify-content: center center;
+  border-radius: 6px;
+}
+
+.recetas{
+  text-decoration: none;
+}
+
+.recetas p{
+  color: black;
+  text-decoration: none;
+}
+
+.nameRecipe {
+  color: #7E4333;
+  font-size: 40px;
+}
+
+.recetas ul {
+  font-size: 20px;
+}
