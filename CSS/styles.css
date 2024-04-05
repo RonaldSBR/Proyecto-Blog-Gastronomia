@@ -77,7 +77,8 @@ p,
   width:1659px;
   height: 368px;
   object-fit: cover;
-  padding-left: 100px;
+border-radius: 6px;
+margin:  0px 100px;
 }
 
 .texto {
@@ -105,42 +106,49 @@ p,
   "main main main";
   padding-left: 100px;
   gap:130px 30px;
+  border-radius: 6px;
 }
 
 #receta1{
   background-color: #ffffff;
   padding: 20px;
   color: black;
+  border-radius: 6px;
 }
 
 #receta2 {
   background-color: #ffffff;
   padding: 20px;
   color: black;
+  border-radius: 6px;
 }
 
 #receta3{
   background-color: #ffffff;
   padding: 20px;
   color: black;
+  border-radius: 6px;
 }
 
 #receta4{
   background-color: #ffffff;
   padding: 20px;
   color: black;
+  border-radius: 6px;
 }
 
 #receta5{
   background-color: #ffffff;
   padding: 20px;
   color: black;
+  border-radius: 6px;
 }
 
 #receta6{
   background-color: #ffffff;
   padding: 20px;
   color: black;
+  border-radius: 6px;
 }
 
 #imgReceta1 {
