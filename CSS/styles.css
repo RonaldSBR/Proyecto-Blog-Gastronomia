@@ -98,13 +98,13 @@ p,
 
 #grid-container {
   display: grid;
-  grid-template-rows: 400px 400px 500px;
+  grid-template-rows: 400px 400px;
   grid-template-columns: 550px 550px 500px;
   grid-template-areas: 
   "main main main"
   "main main main";
   padding-left: 100px;
-  gap: 130px 30px;
+  gap:130px 30px;
 }
 
 #receta1{
@@ -207,4 +207,22 @@ p,
 
 .recetas ul {
   font-size: 20px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: -850px;
+  width: 95%;
+  color: white;
+  padding-left: 20px;
+ margin: 20px;
+  background-color: #255538;
+ text-decoration: none;
+}
+
+#Cook {
+  text-decoration: none;
+  color: #ffffff;
 }
