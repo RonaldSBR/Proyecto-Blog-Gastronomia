@@ -2,11 +2,6 @@ body {
   background-color: #f3e5d8;
 }
 
-.dark-mode body {
-  background-color: #222222; /* Fondo oscuro */
-  color: #ffffff; /* Texto blanco */
-}
-
 .parteDeArriba {
   max-width: 1850px;
   margin: 20px;
@@ -226,7 +221,7 @@ footer {
   justify-content: space-between;
   position: relative;
   bottom: -100px;
-  width: 1830px;
+  width: 1500px;
   color: white;
   padding-left: 20px;
   margin: 20px;
