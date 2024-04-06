@@ -1,5 +1,10 @@
 body {
-background-color: #F3E5D8;
+  background-color: #f3e5d8;
+}
+
+.dark-mode body {
+  background-color: #222222; /* Fondo oscuro */
+  color: #ffffff; /* Texto blanco */
 }
 
 .parteDeArriba {
@@ -30,8 +35,7 @@ background-color: #F3E5D8;
 .parteDeArribaDerecha,
 p,
 #a2,
-#a3
- {
+#a3 {
   padding: 0px 5px 0px 0px;
   display: flex;
   flex-direction: row;
@@ -74,11 +78,11 @@ p,
 
 #imagenParteSuperior {
   max-width: 2000px;
-  width:1659px;
+  width: 1659px;
   height: 368px;
   object-fit: cover;
-border-radius: 6px;
-margin:  0px 100px;
+  border-radius: 6px;
+  margin: 0px 100px;
 }
 
 .texto {
@@ -92,8 +96,8 @@ margin:  0px 100px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-#recipes{
-  color: #7E4333;
+#recipes {
+  color: #7e4333;
   padding: 20px 0px 20px 100px;
 }
 
@@ -101,15 +105,15 @@ margin:  0px 100px;
   display: grid;
   grid-template-rows: 400px 400px;
   grid-template-columns: 550px 550px 500px;
-  grid-template-areas: 
-  "main main main"
-  "main main main";
+  grid-template-areas:
+    "main main main"
+    "main main main";
   padding-left: 100px;
-  gap:130px 30px;
+  gap: 130px 30px;
   border-radius: 6px;
 }
 
-#receta1{
+#receta1 {
   background-color: #ffffff;
   padding: 20px;
   color: black;
@@ -123,28 +127,28 @@ margin:  0px 100px;
   border-radius: 6px;
 }
 
-#receta3{
+#receta3 {
   background-color: #ffffff;
   padding: 20px;
   color: black;
   border-radius: 6px;
 }
 
-#receta4{
+#receta4 {
   background-color: #ffffff;
   padding: 20px;
   color: black;
   border-radius: 6px;
 }
 
-#receta5{
+#receta5 {
   background-color: #ffffff;
   padding: 20px;
   color: black;
   border-radius: 6px;
 }
 
-#receta6{
+#receta6 {
   background-color: #ffffff;
   padding: 20px;
   color: black;
@@ -199,17 +203,17 @@ margin:  0px 100px;
   border-radius: 6px;
 }
 
-.recetas{
+.recetas {
   text-decoration: none;
 }
 
-.recetas p{
+.recetas p {
   color: black;
   text-decoration: none;
 }
 
 .nameRecipe {
-  color: #7E4333;
+  color: #7e4333;
   font-size: 40px;
 }
 
@@ -220,14 +224,16 @@ margin:  0px 100px;
 footer {
   display: flex;
   justify-content: space-between;
-  position: absolute;
-  bottom: -850px;
+  position: relative;
+  bottom: -100px;
   width: 1830px;
   color: white;
   padding-left: 20px;
   margin: 20px;
   background-color: #255538;
- text-decoration: none;
+  text-decoration: none;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
 }
 
 #Cook {

@@ -28,7 +28,7 @@ body {
 }
 
 .parteDeArribaDerecha,
-#send-recipe,
+p,
 #a2,
 #a3 {
   padding: 0px 5px 0px 0px;
@@ -54,63 +54,50 @@ body {
   text-decoration: none;
 }
 
-#container {
-  display: grid;
-  grid-template-columns: 1180px 500px;
-  grid-template-rows: auto;
-  grid-gap: 20px;
-  padding-left: 80px;
-}
-
-#receta {
-  background-color: #ffffff;
-  grid-column: 1/1;
-  padding: 20px;
-  border-radius: 6px;
-}
-
-#imgreceta {
-  max-width: 1140px;
-  width: 1140px;
-  height: 336px;
+.imagenSuperior {
+  padding: 0px 0px 0 0px;
+  max-width: 1900px;
+  width: 3000px;
+  height: 680px;
+  top: 160px;
+  left: 101px;
+  gap: 0px;
+  border-radius: 5px;
+  opacity: 0px;
   object-fit: cover;
-  border-radius: 6px;
 }
 
-#datos-receta {
+textarea,
+input[type="text"] {
+  resize: none;
+  background-color: #DFDFDF;
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+#submitButton {
+  max-width: 30%;
+  width: 150px;
+  box-sizing: border-box;
+  background-color: #255538;
+  color: #ffffff;
+  border-radius: 6px;
+  cursor: pointer;
+  border: none;
+  padding: 10px 20px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
   background-color: #ffffff;
-  grid-column: 2/3;
-  padding: 20px;
   border-radius: 6px;
-  max-width: 500px;
-  margin-bottom: 20px;
-}
-
-#more-recipes {
-  background-color: #ffffff;
-  grid-column: 2/3;
-  border-radius: 6px;
-  padding: 20px;
-}
-
-#namerecipe {
-  font-size: 40px;
-  color: #7e4333;
-}
-
-#flex {
-  display: flex;
-  flex-direction: column;
-  max-width: 500px;
-}
-
-.text {
-  color: black;
-}
-
-#preparation-time {
-  background-color: #fff7fc;
-  padding: 20px;
+  margin-top: 30px;
 }
 
 .subtiteles {
@@ -121,8 +108,8 @@ footer {
   display: flex;
   justify-content: space-between;
   position: relative;
-  bottom: -80px;
-  width: 1830px;
+  bottom: -20px;
+  max-width: 1830px;
   color: white;
   padding-left: 20px;
   margin: 20px;
@@ -137,48 +124,6 @@ footer {
   color: #ffffff;
 }
 
-table {
-  border-collapse: separate;
-  border-spacing: 0px 10px;
-}
-
-.derecha {
-  padding-left: 350px;
-  color: #7e4333;
-}
-
-td {
-  border-bottom: solid 1px #7e4333;
-}
-
-.img-recipes {
-  display: flex;
-  flex-direction: row;
-  text-decoration: none;
-}
-
-.recipes {
-  min-width: 80px;
-  min-height: 80px;
-  width: 80px;
-  max-width: 80px;
-  max-height: 80px;
-  border-radius: 6px;
-  margin: 10px;
-  object-fit: cover;
-}
-
-.text-column {
-  display: flex;
-  flex-direction: column;
+#parrafo {
   color: black;
-  margin: 0%;
-  text-justify: inter-word;
-  margin-top: 10px;
-  text-align: center center;
-}
-
-#size {
-  font-size: 16.5px;
-  padding-top: 20px;
 }
