@@ -56,7 +56,7 @@ body {
 
 #container {
   display: grid;
-  grid-template-columns: 1180px 500px;
+  grid-template-columns: 64% 50%;
   grid-template-rows: auto;
   grid-gap: 20px;
   padding-left: 80px;
@@ -67,14 +67,16 @@ body {
   grid-column: 1/1;
   padding: 20px;
   border-radius: 6px;
+  overflow: hidden;
 }
 
 #imgreceta {
-  max-width: 1140px;
-  width: 1140px;
+  max-width: 1220px;
+  width: 100%;
   height: 336px;
   object-fit: cover;
   border-radius: 6px;
+
 }
 
 #datos-receta {
@@ -101,7 +103,7 @@ body {
 #flex {
   display: flex;
   flex-direction: column;
-  max-width: 500px;
+  max-width: 50%;
 }
 
 .text {
@@ -121,8 +123,9 @@ footer {
   display: flex;
   justify-content: space-between;
   position: relative;
-  bottom: -80px;
-  width: 1760px;
+  bottom: -30px;
+  max-width: 1800px;
+  width: 97%;
   color: white;
   padding-left: 20px;
   margin: 20px;
@@ -143,8 +146,11 @@ table {
 }
 
 .derecha {
-  padding-left: 350px;
+  max-width: 100px;
+  width: 100%;
   color: #7e4333;
+  border-bottom: solid 1px #7e4333;
+  padding-left: 62%;
 }
 
 td {
@@ -181,4 +187,41 @@ td {
 #size {
   font-size: 16.5px;
   padding-top: 20px;
+}
+
+@media screen and (max-width: 1199px) {
+  #container{
+    grid-template-columns: 100%;
+    padding-left: 0px;
+  }
+
+  #datos-receta{
+    max-width: 1199px;
+    width: 96.50%;
+    padding: 15px;
+  }
+
+  .derecha {
+    padding-left: 65%;
+  }
+
+
+  #flex {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+  }
+
+  footer {
+    margin: 0px;
+  }
+}
+
+@media screen and (max-width: 700px){
+
+  #datos-receta{
+    max-width: 1199px;
+    width: 96.50%;
+    padding: 10px;
+  }
 }

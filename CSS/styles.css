@@ -54,36 +54,26 @@ p,
   text-decoration: none;
 }
 
-.imagenSuperior {
-  padding: 0px 0px 0 0px;
-  max-width: 1900px;
-  width: 3000px;
-  height: 680px;
-  top: 160px;
-  left: 101px;
-  gap: 0px;
-  border-radius: 5px;
-  opacity: 0px;
-  object-fit: cover;
-}
-
 .contenedor {
   position: relative;
+  max-width: 1900px;
+  max-height: 370px;
+  display: flex;
 }
 
 #imagenParteSuperior {
   max-width: 2000px;
-  width: 1659px;
+  width: 1669px;
   height: 368px;
   object-fit: cover;
   border-radius: 6px;
-  margin: 0px 100px;
+  margin: 0px 101px;
 }
 
 .texto {
   position: absolute;
   top: 50%;
-  left: 15%;
+  left: 20%;
   transform: translate(-50%, -50%);
   color: white;
   font-size: 24px;
@@ -98,14 +88,15 @@ p,
 
 #grid-container {
   display: grid;
-  grid-template-rows: 400px 400px;
-  grid-template-columns: 550px 550px 500px;
+  grid-template-rows: repeat(2, 400px);
+  grid-template-columns: repeat(3, 30%);
   grid-template-areas:
     "main main main"
     "main main main";
   padding-left: 100px;
-  gap: 130px 30px;
+  gap: 180px 30px;
   border-radius: 6px;
+  
 }
 
 #receta1 {
@@ -151,7 +142,7 @@ p,
 }
 
 #imgReceta1 {
-  width: 510px;
+ width: 100%;
   height: 250px;
   object-fit: cover;
   justify-content: center center;
@@ -159,7 +150,7 @@ p,
 }
 
 #imgReceta2 {
-  width: 510px;
+  width: 100%;
   height: 250px;
   object-fit: cover;
   justify-content: center center;
@@ -167,7 +158,7 @@ p,
 }
 
 #imgReceta3 {
-  width: 460px;
+  width: 100%;
   height: 250px;
   object-fit: cover;
   justify-content: center center;
@@ -175,7 +166,7 @@ p,
 }
 
 #imgReceta4 {
-  width: 510px;
+  width: 100%;
   height: 250px;
   object-fit: cover;
   justify-content: center center;
@@ -183,7 +174,7 @@ p,
 }
 
 #imgReceta5 {
-  width: 510px;
+  width: 100%;
   height: 250px;
   object-fit: cover;
   justify-content: center center;
@@ -191,7 +182,7 @@ p,
 }
 
 #imgReceta6 {
-  width: 460px;
+  width: 100%;
   height: 250px;
   object-fit: cover;
   justify-content: center center;
@@ -220,8 +211,9 @@ footer {
   display: flex;
   justify-content: space-between;
   position: relative;
-  bottom: -100px;
-  width: 1740px;
+  bottom: -160px;
+  max-width: 1800px;
+  width: 97%;
   color: white;
   padding-left: 20px;
   margin: 20px;
@@ -234,4 +226,125 @@ footer {
 #Cook {
   text-decoration: none;
   color: #ffffff;
+}
+
+@media screen and (max-width: 1199px) {
+  #imagenParteSuperior {
+    object-fit: cover;
+    margin: 0px 0px;
+  }
+
+  #recipes {
+    color: #7e4333;
+    padding: 0px;
+  }
+
+  #grid-container {
+    grid-template-columns: repeat(2, 49%); 
+    grid-template-rows: auto;
+    grid-template-areas:
+    "main main"
+    "main main"
+    "main main";
+    gap: 40px 20px;
+   padding-left: 0px;
+  }
+
+  
+  #receta1{
+    overflow: hidden;
+  }
+  #receta2{
+    overflow: hidden;
+  }
+  #receta3{
+    overflow: hidden;
+  }
+  #receta4{
+    overflow: hidden;
+  }
+  #receta5{
+    overflow: hidden;
+  }
+  #receta6{
+    overflow: hidden;
+  }
+
+  footer {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: -100px;
+    width: 1110px auto;
+    color: white;
+    padding-left: 20px;
+    margin: 0px;
+    background-color: #255538;
+    text-decoration: none;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+  }
+
+}
+
+@media screen and (max-width: 576px) {
+  #imagenParteSuperior {
+    object-fit: cover;
+    margin: 0px 0px;
+  }
+
+  #recipes {
+    color: #7e4333;
+    padding: 0px;
+  }
+
+  #grid-container {
+    grid-template-columns: 100%; 
+    grid-template-rows: auto;
+    grid-template-areas:
+    "main"
+    "main"
+    "main"
+    "main"
+    "main"
+    "main";
+    gap: 40px 20px;
+   padding-left: 0px;
+  }
+
+  
+  #receta1{
+    overflow: hidden;
+  }
+  #receta2{
+    overflow: hidden;
+  }
+  #receta3{
+    overflow: hidden;
+  }
+  #receta4{
+    overflow: hidden;
+  }
+  #receta5{
+    overflow: hidden;
+  }
+  #receta6{
+    overflow: hidden;
+  }
+
+  footer {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: -100px;
+    width: 1110px auto;
+    color: white;
+    padding-left: 20px;
+    margin: 0px;
+    background-color: #255538;
+    text-decoration: none;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+  }
+
 }
