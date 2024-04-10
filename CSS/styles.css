@@ -19,6 +19,12 @@ body {
   border-radius: 6px;
   align-items: center;
   text-decoration: none;
+  margin-bottom: 20px;
+  font-family: "DM Serif Display", serif;
+}
+
+#a1 {
+  margin-top: 20px;
 }
 
 .parteDeArribaDerecha {
@@ -38,6 +44,7 @@ p,
   text-decoration: none;
   gap: 20px;
   color: #ffffff;
+  font-family: "DM Sans", sans-serif;
 }
 
 .parteDeArribaDerecha button {
@@ -79,11 +86,13 @@ p,
   font-size: 24px;
   text-align: center;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-family: "DM Serif Display", serif;
 }
 
 #recipes {
   color: #7e4333;
   padding: 20px 0px 20px 100px;
+  font-family: "DM Serif Display", serif;
 }
 
 #grid-container {
@@ -96,7 +105,6 @@ p,
   padding-left: 100px;
   gap: 180px 30px;
   border-radius: 6px;
-  
 }
 
 #receta1 {
@@ -142,7 +150,7 @@ p,
 }
 
 #imgReceta1 {
- width: 100%;
+  width: 100%;
   height: 250px;
   object-fit: cover;
   justify-content: center center;
@@ -196,15 +204,18 @@ p,
 .recetas p {
   color: black;
   text-decoration: none;
+  font-family: "DM Sans", sans-serif;
 }
 
 .nameRecipe {
   color: #7e4333;
   font-size: 40px;
+  font-family: "DM Serif Display", serif;
 }
 
 .recetas ul {
   font-size: 20px;
+  font-family: "DM Sans", sans-serif;
 }
 
 footer {
@@ -226,6 +237,7 @@ footer {
 #Cook {
   text-decoration: none;
   color: #ffffff;
+  font-family: "DM Serif Display", serif;
 }
 
 @media screen and (max-width: 1199px) {
@@ -234,39 +246,42 @@ footer {
     margin: 0px 0px;
   }
 
+  .texto {
+    left: 22%;
+  }
+
   #recipes {
     color: #7e4333;
     padding: 0px;
   }
 
   #grid-container {
-    grid-template-columns: repeat(2, 49%); 
+    grid-template-columns: repeat(2, 49%);
     grid-template-rows: auto;
     grid-template-areas:
-    "main main"
-    "main main"
-    "main main";
+      "main main"
+      "main main"
+      "main main";
     gap: 40px 20px;
-   padding-left: 0px;
+    padding-left: 0px;
   }
 
-  
-  #receta1{
+  #receta1 {
     overflow: hidden;
   }
-  #receta2{
+  #receta2 {
     overflow: hidden;
   }
-  #receta3{
+  #receta3 {
     overflow: hidden;
   }
-  #receta4{
+  #receta4 {
     overflow: hidden;
   }
-  #receta5{
+  #receta5 {
     overflow: hidden;
   }
-  #receta6{
+  #receta6 {
     overflow: hidden;
   }
 
@@ -284,7 +299,6 @@ footer {
     border-top-left-radius: 6px;
     border-top-right-radius: 6px;
   }
-
 }
 
 @media screen and (max-width: 576px) {
@@ -293,42 +307,45 @@ footer {
     margin: 0px 0px;
   }
 
+  .texto {
+    left: 40%;
+  }
+
   #recipes {
     color: #7e4333;
     padding: 0px;
   }
 
   #grid-container {
-    grid-template-columns: 100%; 
+    grid-template-columns: 100%;
     grid-template-rows: auto;
     grid-template-areas:
-    "main"
-    "main"
-    "main"
-    "main"
-    "main"
-    "main";
+      "main"
+      "main"
+      "main"
+      "main"
+      "main"
+      "main";
     gap: 40px 20px;
-   padding-left: 0px;
+    padding-left: 0px;
   }
 
-  
-  #receta1{
+  #receta1 {
     overflow: hidden;
   }
-  #receta2{
+  #receta2 {
     overflow: hidden;
   }
-  #receta3{
+  #receta3 {
     overflow: hidden;
   }
-  #receta4{
+  #receta4 {
     overflow: hidden;
   }
-  #receta5{
+  #receta5 {
     overflow: hidden;
   }
-  #receta6{
+  #receta6 {
     overflow: hidden;
   }
 
@@ -346,5 +363,10 @@ footer {
     border-top-left-radius: 6px;
     border-top-right-radius: 6px;
   }
+}
 
+@media screen and (max-width: 351px) {
+  .parteDeArribaDerecha button {
+    margin-top: 25px;
+  }
 }

@@ -19,6 +19,7 @@ body {
   border-radius: 6px;
   align-items: center;
   text-decoration: none;
+  font-family: "DM Serif Display", serif;
 }
 
 .parteDeArribaDerecha {
@@ -38,6 +39,10 @@ p,
   text-decoration: none;
   gap: 20px;
   color: #ffffff;
+}
+
+#a2 {
+  font-family: "DM Sans", sans-serif;
 }
 
 .parteDeArribaDerecha button {
@@ -70,7 +75,7 @@ p,
 textarea,
 input[type="text"] {
   resize: none;
-  background-color: #DFDFDF;
+  background-color: #dfdfdf;
   border: 1px solid #ccc;
   padding: 20px;
   width: 100%;
@@ -102,6 +107,7 @@ input[type="text"] {
 
 .subtiteles {
   color: #7e4333;
+  font-family: "DM Serif Display", serif;
 }
 
 footer {
@@ -119,11 +125,23 @@ footer {
   border-top-right-radius: 6px;
 }
 
+p {
+  font-family: "DM Sans", sans-serif;
+}
+
 #Cook {
   text-decoration: none;
   color: #ffffff;
+  font-family: "DM Serif Display", serif;
 }
 
 #parrafo {
   color: black;
+  font-family: "DM Sans", sans-serif;
+}
+
+@media screen and (max-width: 351px) {
+  .parteDeArribaDerecha button {
+    margin-top: 25px;
+  }
 }

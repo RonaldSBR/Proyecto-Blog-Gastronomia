@@ -19,6 +19,7 @@ body {
   border-radius: 6px;
   align-items: center;
   text-decoration: none;
+  font-family: "DM Serif Display", serif;
 }
 
 .parteDeArribaDerecha {
@@ -38,6 +39,10 @@ body {
   text-decoration: none;
   gap: 20px;
   color: #ffffff;
+}
+
+#a2 {
+  font-family: "DM Sans", sans-serif;
 }
 
 .parteDeArribaDerecha button {
@@ -76,7 +81,6 @@ body {
   height: 336px;
   object-fit: cover;
   border-radius: 6px;
-
 }
 
 #datos-receta {
@@ -98,6 +102,7 @@ body {
 #namerecipe {
   font-size: 40px;
   color: #7e4333;
+  font-family: "DM Serif Display", serif;
 }
 
 #flex {
@@ -108,6 +113,7 @@ body {
 
 .text {
   color: black;
+  font-family: "DM Sans", sans-serif;
 }
 
 #preparation-time {
@@ -117,6 +123,7 @@ body {
 
 .subtiteles {
   color: #7e4333;
+  font-family: "DM Serif Display", serif;
 }
 
 footer {
@@ -135,9 +142,14 @@ footer {
   border-top-right-radius: 6px;
 }
 
+p {
+  font-family: "DM Sans", sans-serif;
+}
+
 #Cook {
   text-decoration: none;
   color: #ffffff;
+  font-family: "DM Serif Display", serif;
 }
 
 table {
@@ -155,6 +167,7 @@ table {
 
 td {
   border-bottom: solid 1px #7e4333;
+  font-family: "DM Sans", sans-serif;
 }
 
 .img-recipes {
@@ -182,6 +195,15 @@ td {
   text-justify: inter-word;
   margin-top: 10px;
   text-align: center center;
+  font-size: 16px;
+}
+
+ol {
+  font-family: "DM Sans", sans-serif;
+}
+
+li {
+  font-family: "DM Sans", sans-serif;
 }
 
 #size {
@@ -190,21 +212,20 @@ td {
 }
 
 @media screen and (max-width: 1199px) {
-  #container{
+  #container {
     grid-template-columns: 100%;
     padding-left: 0px;
   }
 
-  #datos-receta{
+  #datos-receta {
     max-width: 1199px;
-    width: 96.50%;
+    width: 96.5%;
     padding: 15px;
   }
 
   .derecha {
     padding-left: 65%;
   }
-
 
   #flex {
     display: flex;
@@ -217,11 +238,24 @@ td {
   }
 }
 
-@media screen and (max-width: 700px){
-
-  #datos-receta{
+@media screen and (max-width: 700px) {
+  #datos-receta {
     max-width: 1199px;
-    width: 96.50%;
+    width: 96.5%;
     padding: 10px;
+  }
+}
+
+@media screen and (max-width: 351px) {
+  .parteDeArribaDerecha button {
+    margin-top: 25px;
+  }
+
+  .text-column {
+    font-size: 15px;
+  }
+
+  .derecha {
+    padding-left: 55%;
   }
 }
