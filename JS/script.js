@@ -6,5 +6,3 @@ document.getElementById("submitButton").addEventListener("click", function () {
   document.getElementById("ingredients").value = "";
   document.getElementById("instructions").value = "";
 });
-
-
