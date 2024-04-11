@@ -162,7 +162,7 @@ table {
   width: 100%;
   color: #7e4333;
   border-bottom: solid 1px #7e4333;
-  padding-left: 62%;
+  padding-left: 59%;
 }
 
 td {
@@ -204,6 +204,7 @@ ol {
 
 li {
   font-family: "DM Sans", sans-serif;
+  margin-top: 20px;
 }
 
 #size {

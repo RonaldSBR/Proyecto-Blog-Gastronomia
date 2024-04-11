@@ -80,10 +80,10 @@ p,
 .texto {
   position: absolute;
   top: 50%;
-  left: 20%;
+  left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-  font-size: 24px;
+  font-size: 60px;
   text-align: center;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   font-family: "DM Serif Display", serif;
@@ -103,7 +103,7 @@ p,
     "main main main"
     "main main main";
   padding-left: 100px;
-  gap: 180px 30px;
+  gap: 260px 30px;
   border-radius: 6px;
 }
 
@@ -246,10 +246,6 @@ footer {
     margin: 0px 0px;
   }
 
-  .texto {
-    left: 22%;
-  }
-
   #recipes {
     color: #7e4333;
     padding: 0px;
@@ -305,10 +301,6 @@ footer {
   #imagenParteSuperior {
     object-fit: cover;
     margin: 0px 0px;
-  }
-
-  .texto {
-    left: 40%;
   }
 
   #recipes {
