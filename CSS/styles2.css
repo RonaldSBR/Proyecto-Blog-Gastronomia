@@ -247,9 +247,32 @@ li {
   }
 }
 
+@media screen and (max-width: 431px) {
+  .parteDeArribaDerecha button {
+    margin-top: 6px;
+  }
+
+  #send-recipe{
+    font-size: 13px;
+  }
+
+}
+
+@media screen and (max-width: 407px) {
+  .parteDeArribaDerecha button {
+    margin-top: 7px;
+  }
+}
+
+@media screen and (max-width: 366px) {
+  .parteDeArribaDerecha button {
+    margin-top: 16px;
+  }
+}
+
 @media screen and (max-width: 351px) {
   .parteDeArribaDerecha button {
-    margin-top: 25px;
+    margin-top: 17px;
   }
 
   .text-column {
